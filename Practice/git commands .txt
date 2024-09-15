@@ -1,0 +1,10 @@
+git init #creat git empty repo
+git add file_names # add file to git
+git commit -m " some text " #create save point
+git checkout "sha1" #load save point
+git log --all --graph --decorate #show tree git
+
+
+git remote add origin git@github.com:girafe-ai-edu/python.git #your link
+git branch -M main
+git push -u origin main
